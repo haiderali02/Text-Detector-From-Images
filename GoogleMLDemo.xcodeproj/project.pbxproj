@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1806F74128DAF19600D435FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F74028DAF19600D435FE /* AppDelegate.swift */; };
+		1806F74328DAF19600D435FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F74228DAF19600D435FE /* SceneDelegate.swift */; };
+		1806F74528DAF19600D435FE /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F74428DAF19600D435FE /* EntryViewController.swift */; };
+		1806F74828DAF19600D435FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806F74628DAF19600D435FE /* Main.storyboard */; };
+		1806F74A28DAF19700D435FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1806F74928DAF19700D435FE /* Assets.xcassets */; };
+		1806F74D28DAF19700D435FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1806F74B28DAF19700D435FE /* LaunchScreen.storyboard */; };
+		1806F75828DAF52F00D435FE /* MediaPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F75728DAF52F00D435FE /* MediaPicker.swift */; };
+		1806F75C28DAF87000D435FE /* DetetctedTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F75B28DAF87000D435FE /* DetetctedTextViewController.swift */; };
+		1806F76028DB168600D435FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806F75F28DB168600D435FE /* Constants.swift */; };
+		C2C6EC494AF37830C7AE9220 /* Pods_GoogleMLDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA21FE5D140F3D5FE42FCF3 /* Pods_GoogleMLDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1806F73D28DAF19600D435FE /* GoogleMLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1806F74028DAF19600D435FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1806F74228DAF19600D435FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1806F74428DAF19600D435FE /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		1806F74728DAF19600D435FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1806F74928DAF19700D435FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1806F74C28DAF19700D435FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1806F74E28DAF19700D435FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1806F75728DAF52F00D435FE /* MediaPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPicker.swift; sourceTree = "<group>"; };
+		1806F75B28DAF87000D435FE /* DetetctedTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetetctedTextViewController.swift; sourceTree = "<group>"; };
+		1806F75F28DB168600D435FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F301853061BA7D4672F6862 /* Pods-GoogleMLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLDemo.release.xcconfig"; path = "Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9DA21FE5D140F3D5FE42FCF3 /* Pods_GoogleMLDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMLDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F537739EA354AAFABAB4D5 /* Pods-GoogleMLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLDemo.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1806F73A28DAF19600D435FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C6EC494AF37830C7AE9220 /* Pods_GoogleMLDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1806F73428DAF19600D435FE = {
+			isa = PBXGroup;
+			children = (
+				1806F73F28DAF19600D435FE /* GoogleMLDemo */,
+				1806F73E28DAF19600D435FE /* Products */,
+				7087C55A433FFA4D8DDCBD34 /* Pods */,
+				E5FD33B59D4EE099F32C3D06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1806F73E28DAF19600D435FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1806F73D28DAF19600D435FE /* GoogleMLDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1806F73F28DAF19600D435FE /* GoogleMLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1806F75A28DAF83F00D435FE /* ViewController */,
+				1806F75928DAF55100D435FE /* Delegate */,
+				1806F75628DAF51800D435FE /* Helper */,
+				1806F74628DAF19600D435FE /* Main.storyboard */,
+				1806F74928DAF19700D435FE /* Assets.xcassets */,
+				1806F74B28DAF19700D435FE /* LaunchScreen.storyboard */,
+				1806F74E28DAF19700D435FE /* Info.plist */,
+			);
+			path = GoogleMLDemo;
+			sourceTree = "<group>";
+		};
+		1806F75628DAF51800D435FE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1806F75728DAF52F00D435FE /* MediaPicker.swift */,
+				1806F75F28DB168600D435FE /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1806F75928DAF55100D435FE /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1806F74028DAF19600D435FE /* AppDelegate.swift */,
+				1806F74228DAF19600D435FE /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1806F75A28DAF83F00D435FE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1806F74428DAF19600D435FE /* EntryViewController.swift */,
+				1806F75B28DAF87000D435FE /* DetetctedTextViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7087C55A433FFA4D8DDCBD34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5F537739EA354AAFABAB4D5 /* Pods-GoogleMLDemo.debug.xcconfig */,
+				5F301853061BA7D4672F6862 /* Pods-GoogleMLDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5FD33B59D4EE099F32C3D06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA21FE5D140F3D5FE42FCF3 /* Pods_GoogleMLDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1806F73C28DAF19600D435FE /* GoogleMLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1806F75128DAF19700D435FE /* Build configuration list for PBXNativeTarget "GoogleMLDemo" */;
+			buildPhases = (
+				212790CD87F66731327217B5 /* [CP] Check Pods Manifest.lock */,
+				1806F73928DAF19600D435FE /* Sources */,
+				1806F73A28DAF19600D435FE /* Frameworks */,
+				1806F73B28DAF19600D435FE /* Resources */,
+				5425A1312C3D688C15B049A1 /* [CP] Embed Pods Frameworks */,
+				E657AEE14C6BA991CCC91A1E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMLDemo;
+			productName = GoogleMLDemo;
+			productReference = 1806F73D28DAF19600D435FE /* GoogleMLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1806F73528DAF19600D435FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1806F73C28DAF19600D435FE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 1806F73828DAF19600D435FE /* Build configuration list for PBXProject "GoogleMLDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1806F73428DAF19600D435FE;
+			productRefGroup = 1806F73E28DAF19600D435FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1806F73C28DAF19600D435FE /* GoogleMLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1806F73B28DAF19600D435FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806F74D28DAF19700D435FE /* LaunchScreen.storyboard in Resources */,
+				1806F74A28DAF19700D435FE /* Assets.xcassets in Resources */,
+				1806F74828DAF19600D435FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212790CD87F66731327217B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMLDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5425A1312C3D688C15B049A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E657AEE14C6BA991CCC91A1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLDemo/Pods-GoogleMLDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1806F73928DAF19600D435FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1806F74528DAF19600D435FE /* EntryViewController.swift in Sources */,
+				1806F74128DAF19600D435FE /* AppDelegate.swift in Sources */,
+				1806F75828DAF52F00D435FE /* MediaPicker.swift in Sources */,
+				1806F74328DAF19600D435FE /* SceneDelegate.swift in Sources */,
+				1806F75C28DAF87000D435FE /* DetetctedTextViewController.swift in Sources */,
+				1806F76028DB168600D435FE /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1806F74628DAF19600D435FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806F74728DAF19600D435FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1806F74B28DAF19700D435FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1806F74C28DAF19700D435FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1806F74F28DAF19700D435FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1806F75028DAF19700D435FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1806F75228DAF19700D435FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F537739EA354AAFABAB4D5 /* Pods-GoogleMLDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NH4N3656H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleMLDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Prink Will Use Camera To Update Your Profile Image";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Prink Will Use Microphone To Add Your Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Prink Will Use Library To Update Your Profile Image";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexpalml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1806F75328DAF19700D435FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F301853061BA7D4672F6862 /* Pods-GoogleMLDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7NH4N3656H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoogleMLDemo/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Prink Will Use Camera To Update Your Profile Image";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Prink will access your location so that we can find nearby posts for you";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Prink Will Use Microphone To Add Your Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Prink Will Use Library To Update Your Profile Image";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lexpalml;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1806F73828DAF19600D435FE /* Build configuration list for PBXProject "GoogleMLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806F74F28DAF19700D435FE /* Debug */,
+				1806F75028DAF19700D435FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1806F75128DAF19700D435FE /* Build configuration list for PBXNativeTarget "GoogleMLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1806F75228DAF19700D435FE /* Debug */,
+				1806F75328DAF19700D435FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1806F73528DAF19600D435FE /* Project object */;
+}
